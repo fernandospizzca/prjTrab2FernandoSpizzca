@@ -64,6 +64,7 @@ public class QuartoHotel {
         this.hospede = h;
         this.atendente = a;
         this.situacao = true;
+        this.hospede.setQuartoHotel(this);
     }
     
     public double liberar(int qtdDias, double txDesconto){
