@@ -88,10 +88,8 @@
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Component id="txtRegFunc" pref="106" max="32767" attributes="0"/>
                           <Component id="txtCpfHospede" alignment="0" max="32767" attributes="0"/>
-                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                              <Component id="txtDataSaida" alignment="0" pref="90" max="32767" attributes="0"/>
-                              <Component id="txtDataEntrada" alignment="0" max="32767" attributes="0"/>
-                          </Group>
+                          <Component id="txtDataSaida" alignment="0" pref="90" max="32767" attributes="0"/>
+                          <Component id="txtDataEntrada" alignment="0" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
@@ -120,11 +118,13 @@
                   <Component id="btnPesqRegFunc" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtCpfHospede" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="btnPesqCpfHospede" alignment="3" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="txtResultPesqHospede" linkSize="2" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtCpfHospede" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnPesqCpfHospede" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
               </Group>
               <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">

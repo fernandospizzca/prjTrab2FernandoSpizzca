@@ -9,6 +9,7 @@ public class Hospede extends Pessoa{
     private String cpf;
     private double txDesconto;
     private QuartoHotel quartoHotel;
+    private String sexo;
 
     public Hospede(String nome, String cpf) {
         super(nome);
@@ -37,6 +38,14 @@ public class Hospede extends Pessoa{
 
     public void setQuartoHotel(QuartoHotel quartoHotel) {
         this.quartoHotel = quartoHotel;
+    }
+
+    public String getSexo() {
+        return sexo;
+    }
+
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
     }
     
 }

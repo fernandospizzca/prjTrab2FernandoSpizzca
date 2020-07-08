@@ -33,6 +33,7 @@ public class GuiMenu extends javax.swing.JFrame {
         jMenuItemHospede = new javax.swing.JMenuItem();
         jMenuRegistro = new javax.swing.JMenu();
         jMenuItemRegistrarLiberar = new javax.swing.JMenuItem();
+        jMenuItemAvaliacao2 = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Hotel POO");
@@ -75,6 +76,14 @@ public class GuiMenu extends javax.swing.JFrame {
         });
         jMenuRegistro.add(jMenuItemRegistrarLiberar);
 
+        jMenuItemAvaliacao2.setText("Avaliação 2");
+        jMenuItemAvaliacao2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItemAvaliacao2ActionPerformed(evt);
+            }
+        });
+        jMenuRegistro.add(jMenuItemAvaliacao2);
+
         jMenuBar1.add(jMenuRegistro);
 
         setJMenuBar(jMenuBar1);
@@ -108,6 +117,10 @@ public class GuiMenu extends javax.swing.JFrame {
     private void jMenuItemRegistrarLiberarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemRegistrarLiberarActionPerformed
         new GuiReservarLiberar(cadastro, hotel).setVisible(true);
     }//GEN-LAST:event_jMenuItemRegistrarLiberarActionPerformed
+
+    private void jMenuItemAvaliacao2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItemAvaliacao2ActionPerformed
+        new GuiAvaliacao2(cadastro, hotel).setVisible(true);
+    }//GEN-LAST:event_jMenuItemAvaliacao2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -148,6 +161,7 @@ public class GuiMenu extends javax.swing.JFrame {
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenu jMenuCadastro;
     private javax.swing.JMenuItem jMenuItemAtendente;
+    private javax.swing.JMenuItem jMenuItemAvaliacao2;
     private javax.swing.JMenuItem jMenuItemHospede;
     private javax.swing.JMenuItem jMenuItemQuarto;
     private javax.swing.JMenuItem jMenuItemRegistrarLiberar;
